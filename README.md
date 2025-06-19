@@ -12,7 +12,9 @@ I have applied the following patches to enhance functionality and appearance:
 
 ## Patch Functionality
 
-These patches add useful visual and customization features to **slock**. The `capscolor` patch changes the screen color when Caps Lock is active, providing clear feedback. `colormessage` adds a customizable status message (e.g., "This computer is locked") on the lock screen, and `xresources` allows configuring colors and messages dynamically through `.Xresources`, making it easier to theme **slock** without recompiling.
+These patches add useful visual and customization features to **slock**. The `capscolor` patch changes the screen color when `Caps Lock` is active, providing clear feedback.
+
+The `colormessage` adds a customizable status message (e.g., "This computer is locked") on the lock screen, and `xresources` allows configuring colors and messages dynamically through `.Xresources`, making it easier to theme **slock** without recompiling.
 
 ## Additional Customizations
 
@@ -40,7 +42,7 @@ Colors are based on the [Catppuccin Mocha](https://github.com/catppuccin/catppuc
 
 No special key bindings are required - just type your password and press `Enter` to unlock the screen.
 
-Although the `capscolor` patch is applied, I’ve remapped the `Caps Lock` key to `Ctrl + S` using VIA app, so it now serves as a Leader key in **Neovim** and **Tmux**. The patch remains - just in case `Caps Lock` ever makes a surprise comeback.
+Although the `capscolor` patch is applied, I’ve remapped the `Caps Lock` key to `Ctrl + S` using VIA app, so it now serves as a Leader key in **NeoVim** and **Tmux**. The patch remains - just in case `Caps Lock` ever makes a surprise comeback.
 
 ## Installation
 
